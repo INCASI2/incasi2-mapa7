@@ -23,7 +23,7 @@
             padding: 20px 0;
         }
         .logo {
-            width: 450px; /* Aumenté el tamaño del logo al triple */
+            width: 450px;
             margin: 20px 0;
         }
         iframe {
@@ -32,18 +32,37 @@
             border: 1px solid #ccc;
             margin: 20px 0;
         }
+
+        /* 🔽 Estilo para la fuente del mapa */
+        .fuente {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .fuente a {
+            color: #008037;
+            text-decoration: none;
+        }
+        .fuente a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
-    <!-- Barra de título con el texto y el fondo verde -->
     <h1>Mapas de desigualdad INCASI 2</h1>
 
-    <!-- Imagen logo debajo del título -->
     <img src="https://raw.githubusercontent.com/agargon7/incasimaps/main/Logoincasi2.jpg" alt="Logo INCASI" class="logo">
 
-    <!-- Mapa de desigualdad -->
     <iframe src="mapa.html"></iframe>
+
+    <!-- 🔽 Fuente general debajo del mapa -->
+    <p class="fuente">
+        Fuente: 
+        <a href="https://ourworldindata.org/search" target="_blank">
+            Our World in Data
+        </a> (University of Oxford, 2025).
+    </p>
 
 </body>
 </html>
